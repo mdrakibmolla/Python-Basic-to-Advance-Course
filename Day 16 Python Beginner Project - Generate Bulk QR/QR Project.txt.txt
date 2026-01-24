@@ -1,0 +1,11 @@
+import qrcode
+# img = qrcode.make("www.inceotionbd.com")
+# img.save("inception_website.jpg")
+
+with open("text.file.txt", "r") as file:
+    for i in file:
+        data = i.strip("\n")
+        new_data = data.split("|")
+        img = qrcode.make(f"{new_data[1]}")
+        img.save(f"{new_data[0]}.png")
+        #print(new_data)
