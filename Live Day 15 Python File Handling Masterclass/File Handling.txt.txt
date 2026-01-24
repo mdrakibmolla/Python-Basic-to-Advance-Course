@@ -1,0 +1,61 @@
+# Read Mode
+# f = open("test.txt", "r")
+# data = f.read()
+# print(data)
+# f.close
+
+
+# Write mode old data ke clear kore overide kore
+# f = open ("rakib.txt", "w")
+# f.write("hello how are you")
+# f.close
+
+
+# apppend mode e data last add hoy
+# f = open("rakib.txt","a")
+# f.write("test4")
+# f.close
+
+
+# Read & Write Mode
+# f = open ("rakib.txt","r+")
+# data = f.read()
+# print(data)
+# f.write("test5")
+# f.close
+
+# f = open("rakib.txt","r")
+# data = f.read()
+# print(data)
+# f.close
+
+# context manager and with statement
+# with open("rakib.txt","r") as f:
+# data = f.read()
+# print(data)
+
+
+# File Remove os bulding function
+# import os
+# os.remove("test.txt")
+
+
+# Read or Readline
+# with open("rakib.txt","r") as f:
+    # d = f.read()
+   # print(d)
+   # data = f.readline
+   # print(data)
+   # data1 = f.readline()
+   # print(data1)
+
+
+# replace read and write  
+with open("rakib.txt", "r") as f:
+     d = f.read()
+new_data = d.replace("HTML", "Python")
+print(new_data)
+
+
+with open("rakib.txt","w") as rakib2:
+     rakib2.write(new_data)
