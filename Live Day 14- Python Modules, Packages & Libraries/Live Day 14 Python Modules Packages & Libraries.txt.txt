@@ -1,0 +1,12 @@
+1. my File Location copy Link and Anaconda Prompt Past and Entert
+2. anaconda prompt enter call:- conda create -n test_envt python 3.15.5 -y
+3. anaconda prompt enter call:- conda activate test_envt
+4. Anaconda prompt python code run Anaconda Prompt call Python [mein.py](http://mein.py/)
+5. Libraries >Packages > Module
+Libraries > Module
+6. ibraries  File vitore onek gula Packages thoke are Packages vitore Module thake are module create karte Module.py  dite hoy.
+7. Libraries ke import korte hole-
+import mylibraries
+from mylibraries.Modute import myname 
+
+      Print (mylibraries.Module.myname())
