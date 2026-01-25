@@ -1,0 +1,31 @@
+# 1 Compile time Error
+# 2 Logical Error
+# 3 Run time Error
+
+
+# Compile time Error
+#SyntaxError and IndentationError- this is Compile Error
+# a = 10
+# if a>=10
+# print("Hello World")
+
+
+# Logical Error
+#No output-this is Logical Error
+#a = 10
+#if a > 10:
+    #print("Hello World")
+
+
+# Run time Error
+num1 = int(input("Enter a Number:-"))
+num2 = int(input("Enter another Number;-"))
+
+try:
+    result = num1/num2
+    print(result)
+
+except Exception as e:
+    print("You Can Not Divide a Number by Zero")
+
+print("Made by Inception BD")
